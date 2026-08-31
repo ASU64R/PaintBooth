@@ -1,0 +1,16 @@
+# CODESYS
+*.crc
+*.compileinfo
+*.opt
+*.tmp
+*.bak
+*.log
+*.precompilecache
+CompileInfo/
+Visu/
+_build/
+Bin/
+*.lock
+*.lck
+Thumbs.db
+desktop.ini
