@@ -12,6 +12,7 @@
 # === Файлы симуляции (локальные) ===
 *.simulation.bootinfo
 *.simulation.bootinfo_guids
+*.compileinfo
 
 # === Папки сборки и визуализации ===
 CompileInfo/
