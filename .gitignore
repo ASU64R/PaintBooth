@@ -1,4 +1,4 @@
-# CODESYS
+# === Временные файлы и кэш CODESYS ===
 *.crc
 *.compileinfo
 *.opt
@@ -6,11 +6,25 @@
 *.bak
 *.log
 *.precompilecache
+*.~*
+*.backup
+
+# === Файлы симуляции (локальные) ===
+*.simulation.bootinfo
+*.simulation.bootinfo_guids
+
+# === Папки сборки и визуализации ===
 CompileInfo/
 Visu/
 _build/
 Bin/
+lib/
+
+# === Файлы блокировки ===
 *.lock
 *.lck
+
+# === Системный мусор Windows ===
 Thumbs.db
 desktop.ini
+.DS_Store
